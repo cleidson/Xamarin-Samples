@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
+             xmlns:local="clr-namespace:App1" 
+             x:Class="App1.MainPage">
+    <ContentPage.Content >
+        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Red" >
+            <controls:CircleImage
+                WidthRequest="150"
+                HeightRequest="150"
+                Aspect="AspectFill"
+                Source="{Binding Foto}"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                BorderThickness="3"
+                 BorderColor="Yellow"
+                Margin="10,50,0,0"
+                >
+
+                
+            </controls:CircleImage>
+             
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
