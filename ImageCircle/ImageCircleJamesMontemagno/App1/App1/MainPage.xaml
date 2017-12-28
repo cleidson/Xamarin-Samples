@@ -10,17 +10,15 @@
                 WidthRequest="150"
                 HeightRequest="150"
                 Aspect="AspectFill"
-                Source="{Binding Foto}"
+                Source="{Binding Pessoa.Foto}"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"
                 BorderThickness="3"
-                 BorderColor="Yellow"
-                Margin="10,50,0,0"
-                >
-
-                
+                BorderColor="Yellow"
+                Margin="10,50,0,0">
             </controls:CircleImage>
-             
-        </StackLayout>
+            <Label Text="{Binding Pessoa.Nome}" />
+        </StackLayout> 
     </ContentPage.Content>
+
 </ContentPage>
