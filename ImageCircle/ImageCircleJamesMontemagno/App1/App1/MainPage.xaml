@@ -20,5 +20,4 @@
             <Label Text="{Binding Pessoa.Nome}" />
         </StackLayout> 
     </ContentPage.Content>
-
 </ContentPage>
